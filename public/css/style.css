@@ -34,17 +34,15 @@ li {
 
 }
 
-.header-logo {
+.header-logo h1{
   float:left;
-  font-size:36px;
   padding:20px 40px;
-  
+  text-align: 36px;
 }
 
 .header-list li{
-  float:left;
   padding: 33px 200px;
-  
+  float: left;
 }
 /* BAGIAN MAIN DAN BODY*/
 .main {
