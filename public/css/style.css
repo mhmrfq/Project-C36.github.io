@@ -102,4 +102,23 @@ textarea {
   color: #889eab;
 }
 /* BAGIAN FOOTER */
+.footer {
+  background-color: #0a98f7;
+  color: rgb(252, 252, 252);
+  height: 200px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
 
