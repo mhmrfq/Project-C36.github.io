@@ -27,7 +27,25 @@ li {
   list-style: none;
 }
 /* BAGIAN HEADER */
+.header {
+  background-color:#26doc9;
+  color: #fff;
+  height:90px;
 
+}
+
+.header-logo {
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+  
+}
+
+.header-list li{
+  float:left;
+  padding: 33px 200px;
+  
+}
 /* BAGIAN MAIN DAN BODY*/
 .main {
   padding: 100px 80px;
