@@ -1,0 +1,179 @@
+/* Reset CSS*/
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+/* BAGIAN HEADER */
+.header {
+  background-color: rgba(18, 120, 151, 0.8);
+  color: #fff;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+}
+.header-list li:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header-list a {
+  float: left;
+  padding: 33px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+/* BAGIAN MAIN DAN BODY*/
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 90px;
+  color: rgb(34, 211, 255);
+  text-shadow: 3px 3px blueviolet;
+  text-align: center;
+}
+
+.copy-container h2 {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+.copy-container {
+  background-image: url(../images/blue-snow.png);
+}
+.tentang {
+  margin-top: 100px;
+  text-align: center;
+}
+.tentang a {
+  padding: 5px 0;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+.tentang a:hover {
+  color: rgba(18, 120, 151, 0.8);
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+.contents-item img {
+  width: 250px;
+  height: 250px;
+}
+.contents-item img:hover {
+  opacity: 0.5;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #0e6e94;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+.contact-submit:hover {
+  background-color: darkgreen;
+  color: #889eab;
+}
+/* BAGIAN FOOTER */
+.footer {
+  background-color: rgba(18, 120, 151, 0.8);
+  color: rgb(252, 252, 252);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.footer-list ul {
+  display: flex;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  flex: auto;
+}
+.footer-list ul img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+.footer-list ul img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
