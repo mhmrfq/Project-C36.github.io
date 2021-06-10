@@ -1,37 +1,66 @@
-/* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .copy-container h1 {
-    font-size: 70px;
-  }
-  .copy-container h2 {
-    font-size: 20px;
-  }
-  .contents-item p {
-    font-size: 20px;
-    margin-top: 30px;
-  }
-}
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .header-list ul li {
-    display: none;
+    .contents-item p {
+      font-size: 20px;
+      margin-top: 30px;
+    }
   }
-  .copy-container h1 {
-    font-size: 50px;
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+    }
+    .header-list ul li {
+      display: none;
+    }
+
+    span.menu-icon {
+      display: block;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+  
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .contents-item img {
+      width: auto;
+    }
+    .contents-item p {
+      font-size: 15px;
+      margin-top: 30px;
+    }
+    
+    input,
+    textarea {
+      width: 100%;
+    }
+
+    .footer{
+      padding: 15px;
+    }
+    .footer-logo h1{
+      font-size: 20px;
+    }
   }
-  .copy-container h2 {
-    font-size: 15px;
-  }
-  .contents-item img {
-    width: 100%;
-  }
-  .contents-item p {
-    font-size: 15px;
-    margin-top: 30px;
-  }
-  input,
-  textarea {
-    width: 100%;
-  }
-}
