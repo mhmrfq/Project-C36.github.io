@@ -1,215 +1,257 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html, body,
-  ul, ol, li,
-  h1, h2, h3, h4, h5, h6, p, div {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: sans-serif;;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .clear {
-    clear: left;
-  }
-  
-  .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-  .top-wrapper {
-    padding: 100px 0 50px 0;
-    background-image: url(images/blackbg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: black;
-    text-align: center;
-  }
-  
-  .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper p {
-    opacity: 0.7;
-    font-size: 18px;
-    margin-bottom: 3px;
-  }
-  
-  .btn-wrapper {
-    text-align: center;
-    margin: 0;
-  }
-  
-  .facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-  }
-  
-  .twitter {
-    background-color: #55acee;
-    margin-right: 10px;
-  }
+  box-sizing: border-box;
+}
 
-  .whatsapp {
-    background-color: darkgreen;
-  }
-  
-  .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
-  .btn:hover {
-    opacity: 1;
-  }
-  
-  .fa {
-    margin-right: 5px;
-  }
-  
-  header {
-    height: 70px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
-  
-  .logo {
-    width: 100px;
-    height: 50px;
-    margin-top: 10px;
-  }
-  
-  .header-left {
-    float: left;
-  }
-  .header-left h1{
-    margin: 15px;
-    color: white;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-  
-  .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
 
-  .contents {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-  }
-  .section-title {
-    border-bottom: 2px solid #dee7ec;
-    font-size: 28px;
-    padding: 10px;
-  }
-  .contents-item {
-    float: left;
-    padding: 20px 0 20px 70px;
-  }
-  .contents-item img {
-    width: 350px;
-    height: 300px;
-    padding-top: 50px;
-  }
-  .contents-item img:hover {
-    opacity: 0.5;
-  }
-  .contents-item p {
-    font-size: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .contact-form {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    text-align: center;
-  }
-  .contact-form p {
-    padding: 20px 0 10px;
-  }
-  
-  input,
-  textarea {
-    width: 400px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
-  }
-  .contact-submit {
-    background-color: #dee7ec;
-    color: #889eab;
-  }
-  .contact-submit:hover {
-    background-color: darkgreen;
-    color: #889eab;
-  }
+a {
+  text-decoration: none;
+}
 
-  .footer {
-    background-color: #0a98f7;
-    color: rgb(252, 252, 252);
-    height: 220px;
-    padding: 20px;
-  }
-  .footer-logo {
-    float: left;
-  }
-  .footer-logo h1 {
-    font-size: 35px;
-    margin-top: 70px;
-    margin-left: 10px;
-  }
-  .footer-list {
-    float: right;
-  }
-  .footer-list li {
-    padding-bottom: 10px;
-  }
-  .footer-list p {
-    padding: 0 0 10px 35px;
-  }
-  /* Ketik code Anda dibaris bawah */
-  span.menu-icon {
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-  }
-  
+.clear {
+  clear: both;
+}
 
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 100px 0 50px 0;
+  background-image: url(../images/blackbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 0;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-right: 10px;
+}
+.instagram {
+  background-color: #ee5562;
+  margin-right: 10px;
+}
+
+.whatsapp {
+  background-color: darkgreen;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+  transform: rotate(25deg);
+  transition: 1.5s;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  border-radius: 40px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.logo:hover {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.header-left {
+  float: left;
+}
+.header-left h1 {
+  margin: 15px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.contents {
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 25px;
+}
+.ruang {
+  width: 100%;
+  background-image: url(../images/blue-snow.png);
+  background-attachment: fixed;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding: 10px;
+}
+.tentang {
+  background-image: url(../images/blue-snow.png);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 50px;
+  text-align: center;
+}
+.tentang a {
+  padding: 5px 0;
+  cursor: pointer;
+  font-size: 25px;
+  display: block;
+}
+.tentang a:hover {
+  color: rgba(18, 120, 151, 0.8);
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+.contents-item {
+  float: left;
+  padding: 20px 0 20px 70px;
+}
+.contents-item img {
+  width: 350px;
+  height: 300px;
+  padding-top: 50px;
+}
+.contents-item img:hover {
+  opacity: 0.5;
+  transform: rotate(360deg);
+  transition: 2s;
+}
+.contents-item p {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-form {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url(../images/blue-snow.png);
+  background-attachment: fixed;
+}
+.contact-form p {
+  padding: 20px 0 10px;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit {
+  background-color: rgba(34, 49, 52, 0.9);
+  color: #889eab;
+}
+.contact-submit:hover {
+  background-color: darkgreen;
+  color: #889eab;
+}
+
+/*  Awal Bagian Footer */
+footer img {
+  border-radius: 50%;
+  width: 75px;
+  cursor: pointer;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+footer {
+  padding: 10px 0 10px 0;
+  background-color: rgba(34, 49, 52, 0.9);
+  text-align: center;
+}
+/* Akhir Bagian Footer */
